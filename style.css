@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing:border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(175deg, #dee2e6 50%,#f8f9fa 50%);
+  }
+input{
+    width: 300px;
+}
+.alert{
+    width: 300px;
+    color: aqua !important;
+}
+.btn-dark {
+    background-color: #000 !important;
+    width: 100%;
+  }
+.btn-dark:hover{
+    color: aqua !important;
+}
+.calculatorDiv {
+    max-width: 400px;
+    margin: 40px auto;
+  }
+input.mathSubjects {
+    border: none !important;
+    font-size: 2rem;
+    height: 30px;
+    text-align: right;
+}
+input.resultInp {
+    border: none;
+    font-size: 2rem;
+    height: 60px;
+    text-align: right;
+    color: aqua;
+}
